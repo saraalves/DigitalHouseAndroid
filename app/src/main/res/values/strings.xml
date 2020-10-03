@@ -2,4 +2,7 @@
     <string name="app_name">DigitalHouseAndroid</string>
     <string name="sign_up"><u>Sign up</u></string>
     <string name="foobar">FOOBAR</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 </resources>
