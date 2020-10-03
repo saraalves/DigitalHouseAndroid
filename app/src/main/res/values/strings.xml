@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">DigitalHouseAndroid</string>
-    <string name="sign_up"><u> Sign up </u></string>
+    <string name="sign_up"><u>Sign up</u></string>
     <string name="foobar">FOOBAR</string>
 </resources>

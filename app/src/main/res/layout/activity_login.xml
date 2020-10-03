@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#C180FF"
+    android:orientation="vertical"
     android:padding="20dp"
     tools:context=".aula16.LoginActivity">
 
@@ -17,7 +17,7 @@
         android:fontFamily="sans-serif-light"
         android:text="@string/foobar"
         android:textColor="#FFFFFF"
-        android:textSize="50dp">
+        android:textSize="24dp">
 
     </TextView>
 
@@ -25,21 +25,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="90dp"
+        android:backgroundTint="@color/colorAccent"
         android:fontFamily="sans-serif-light"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:textColorHint="#FFFFFF"
-        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         android:textSize="18dp"></EditText>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorAccent"
         android:fontFamily="sans-serif-light"
         android:hint="Password"
-        android:backgroundTint="@color/colorAccent"
-        android:textColorHint="#FFFFFF"
+        android:inputType="textPassword"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         android:textSize="18dp"></EditText>
 
     <Button
@@ -47,26 +50,31 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
-        android:background="#8051C4"
+        android:background="@color/colorButtonLogin"
         android:fontFamily="sans-serif-light"
-        android:padding="14dp"
+        android:padding="12dp"
         android:text="LOGIN"
-        android:textColor="#FFFFFF"
-        android:textSize="24dp">
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold">
 
     </Button>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="10dp"
-        android:fontFamily="sans-serif-light"
-        android:text="@string/sign_up"
-        android:textColor="#FFFFFF"
-        android:textSize="14dp">
 
-    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="sans-serif-light"
+            android:padding="15dp"
+            android:text="@string/sign_up"
+            android:textColor="@color/colorAccent"
+            android:textSize="16dp" />
+    </LinearLayout>
 </LinearLayout>
