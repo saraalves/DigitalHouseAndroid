@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Temperatura em ºC"
+        android:text="@string/temperatura_em_c"
         android:textColor="@color/colorTextBlack"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
         android:backgroundTint="@color/colorTextBlack"
-        android:hint="Digite a temperatura"
+        android:hint="@string/digite_a_temperatura"
         android:inputType="numberDecimal"
         android:textColor="@color/colorTextBlack"
         android:textSize="20sp" />
@@ -37,7 +37,7 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="60dp"
         android:background="@color/colorButtonMeuNome"
-        android:text="Converter"
+        android:text="@string/converter"
         android:textColor="@color/colorwhite"
         android:textSize="18sp">
 
@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:text="ºF"
+            android:text="@string/f"
             android:textColor="@color/colorTextBlack"
             android:textSize="26sp"
             android:textStyle="bold" />

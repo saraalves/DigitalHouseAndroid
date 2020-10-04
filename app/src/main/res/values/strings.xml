@@ -9,4 +9,8 @@
     <string name="digite_seu_nome">Digite seu nome</string>
     <string name="exibir">Exibir</string>
     <string name="meu_nome">Meu nome é</string>
+    <string name="temperatura_em_c">Temperatura em ºC</string>
+    <string name="digite_a_temperatura">Digite a temperatura</string>
+    <string name="converter">Converter</string>
+    <string name="f">ºF</string>
 </resources>
