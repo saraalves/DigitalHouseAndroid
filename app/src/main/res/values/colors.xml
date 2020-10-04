@@ -2,6 +2,10 @@
 <resources>
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#ffffff</color>
+    <color name="colorAccent">#000000</color>
     <color name="colorButtonLogin">#8051C4</color>
+    <color name="colorButtonMeuNome">#0d47a1</color>
+    <color name="colorTextBlack">#000000</color>
+    <color name="colorwhite">#FFFFFF</color>
+
 </resources>
