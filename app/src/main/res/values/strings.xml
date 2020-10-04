@@ -13,4 +13,9 @@
     <string name="digite_a_temperatura">Digite a temperatura</string>
     <string name="converter">Converter</string>
     <string name="f">ºF</string>
+    <string name="horas_trabalhadas">Horas Trabalhadas</string>
+    <string name="valor_da_hora">Valor da hora</string>
+    <string name="_180">180</string>
+    <string name="_15">15</string>
+    <string name="r">R$</string>
 </resources>
