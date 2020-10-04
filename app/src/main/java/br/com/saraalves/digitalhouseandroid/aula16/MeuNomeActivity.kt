@@ -14,6 +14,10 @@ class MeuNomeActivity : AppCompatActivity() {
             val nome = edtMeuNome.text
 
             txtNomeDigitado.text = nome
+
         }
     }
+
+
+
 }
